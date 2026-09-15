@@ -1,0 +1,4 @@
+[server]
+# Polling preserves hot reload without native watchdog thread incompatibilities
+# observed with the local Windows/Python 3.13 environment.
+fileWatcherType = "poll"
